@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from './Companent/Header/Header';
  import "./App.css"
+import Hero from './Companent/Hero/Hero';
  
 const App = () => {
   return (
     <div>
        <Header /> 
+       <Hero/>
     </div>
   );
 };

@@ -35,7 +35,7 @@
     gap: 25px;
 }
 
-a{
+.about{
      font-weight: 400;
      font-size: 20px;
     leading-trim: NONE;
@@ -45,6 +45,6 @@ a{
     color: white;
 }
 
-a:hover{
+.about:hover{
     color: #00EEFF;
 }
