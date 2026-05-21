@@ -1,0 +1,120 @@
+.section1-container{
+    margin-bottom: 50px;
+}
+.our{
+     font-weight: 700;
+     font-size: 39.6px;
+     line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: 45px;
+.ser{
+     font-weight: 700;
+     font-size: 39.6px;
+     line-height: 100%;
+      color: #00EEFF;
+ }
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+     gap: 20px;
+     justify-content: center;
+     margin-bottom: 150px;
+}
+.card{
+    width: 300px;
+    height: 337px;
+    border-radius: 17.6px;
+    border: 1px solid #1F242D;
+    background: #323946;
+    transition: all 0.6s ease-in-out;
+}
+.card:hover{
+    transform: translateY(30px);
+}
+.vec{
+    padding-top: 47px;
+    padding-right: 90px;
+    padding-left: 120px;
+    padding-bottom: 25px;
+}
+
+.web{
+     font-weight: 700;
+     font-size: 22.9px;
+     line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.sit{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 130%;
+    letter-spacing: 0%;
+     text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+     margin-bottom: 29px;
+}
+
+.mor{
+    box-shadow: 0px 0px 8.8px 0px #00EEFF;
+    background: #00EEFF;
+    border-radius: 17px;
+    width: 130px;
+    padding: 10px;
+    color: #1F242D;
+     font-weight: 600;
+     font-size: 14.1px;
+     line-height: 100%;
+     margin-left: 76px;
+    
+}
+
+.section2-container{
+    margin-bottom: 90px;
+}
+
+.late{
+    font-weight: 700;
+     font-size: 39.6px;
+     line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: 40px;
+ .ser1{
+     font-weight: 700;
+     font-size: 39.6px;
+     line-height: 100%;
+       color: #00EEFF;
+   } 
+}
+
+.rasm{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+    gap: 23px;
+
+}
+.over{
+    width: 30%;
+    transition: all 0.6s ease-in-out;
+}
+.over:hover{
+    transform: translateX(20px);
+}

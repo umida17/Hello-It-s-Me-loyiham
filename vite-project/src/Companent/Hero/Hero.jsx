@@ -12,10 +12,10 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
             <div className="hero-left">
-                <h2>Hello It's Me</h2>
-                <h3>John Kendric</h3>
-                <h4>And I'm a <span>Frontend Develo|</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla 
+                <h2 className='me'>Hello It's Me</h2>
+                <h3 className='john'>John Kendric</h3>
+                <h4 className='and'>And I'm a <span className='fronte'>Frontend Develo|</span></h4>
+                <p className='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla 
                     libero labore exercitationem, iste iusto unde eos.
                 </p>
                 <div className="icon">
@@ -24,10 +24,10 @@ const Hero = () => {
                     <img src={Link2} alt="" />
                     <img src={Link3} alt="" />
                 </div>
-                <button><a href="#">Download CV</a></button>
+                <button className='cv'><a href="#">Download CV</a></button>
             </div>
 
-            <img src={brat} alt="" />
+            <img className='bre' src={brat} alt="" />
         </div>
       </div>
     </div>
