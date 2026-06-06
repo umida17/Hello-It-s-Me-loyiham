@@ -98,7 +98,7 @@
     margin-bottom: 40px;
 
  .ser1{
-    
+
      font-weight: 700;
      font-size: 39.6px;
      line-height: 100%;
@@ -118,6 +118,8 @@
     width: 30%;
     transition: all 0.6s ease-in-out;
 }
+
+
 .over:hover{
     transform: translateX(20px);
 }
