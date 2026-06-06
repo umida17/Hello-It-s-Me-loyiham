@@ -89,8 +89,7 @@
 }
 
 
-/* Hero.css faylining eng tagidan qo'shing */
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .hero-content {
     flex-direction: column-reverse; /* Rasm tepaga, matn pastga tushadi */
     text-align: center;
