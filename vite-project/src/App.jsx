@@ -14,7 +14,6 @@ const App = () => {
       <div>
          <Header /> 
          <Hero />
-         
          <Main />
       </div>
     </LanguageProvider>
