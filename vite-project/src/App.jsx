@@ -16,9 +16,10 @@ const App = () => {
          <Hero />
          <Main />
       </div>
-      
+
     </LanguageProvider>
   );
+  
 };
 
 export default App;
