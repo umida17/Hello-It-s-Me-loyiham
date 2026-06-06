@@ -91,7 +91,7 @@
 
  @media (max-width: 768px) {
   .hero-content {
-    flex-direction: column-reverse; /* Rasm tepaga, matn pastga tushadi */
+    flex-direction: column-reverse; 
     text-align: center;
     gap: 25px;
     padding: 20px 0;
