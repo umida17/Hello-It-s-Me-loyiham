@@ -1,0 +1,44 @@
+{
+  "uz": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "portfolio": "Portfoliolar",
+    "contact": "Aloqa",
+    "hello": "Salom, bu men",
+    "and": "Va men",
+    "dev": "Frontend dasturchiman",
+    "download_cv": "CV yuklab olish",
+    "our_services": "Bizning Xizmatlar",
+    "latest_projects": "So'nggi Loyihalar",
+    "read_more": "Batafsil"
+  },
+  "ru": {
+    "home": "Главная",
+    "about": "О нас",
+    "services": "Услуги",
+    "portfolio": "Портфолио",
+    "contact": "Контакты",
+    "hello": "Привет, это я",
+    "and": "И я",
+    "dev": "Frontend разработчик",
+    "download_cv": "Скачать CV",
+    "our_services": "Наши Услуги",
+    "latest_projects": "Последние Проекты",
+    "read_more": "Подробнее"
+  },
+  "en": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "hello": "Hello It's Me",
+    "and": "And I'm a",
+    "dev": "Frontend Developer",
+    "download_cv": "Download CV",
+    "our_services": "Our Services",
+    "latest_projects": "Latest Project",
+    "read_more": "Read More"
+  }
+}

@@ -1,7 +1,11 @@
 import React from 'react';
 import "./Header.css";
+import { useLanguage } from '../../LanguageContext/LanguageContext';
 
 const Header = () => {
+ const { t, setLanguage, language } = useLanguage()
+
+
   return (
     <div>
       <header className='header'>
@@ -9,11 +13,19 @@ const Header = () => {
           <div className="header-container">
               <h1 className='port'>Portfolio</h1>
               <div className="home">
-                <a className='about' href="#">Home</a>
-                <a  className='about' href="#">About</a>
-                <a  className='about' href="#">Services</a>
-                <a  className='about' href="#">Portfolio</a>
-                <a  className='about' href="#">Contact</a>
+                <a className='about' href="#">{t('home')}</a>
+                <a className='about' href="#">{t('about')}</a>
+                <a className='about' href="#">{t('services')}</a>
+                <a className='about' href="#">{t('portfolio')}</a>
+                <a className='about' href="#">{t('contact')}</a>
+              </div>
+              
+               <div className="language-select">
+                <select value={language} onChange={(e) => setLanguage(e.target.value)}>
+                  <option value="en">EN</option>
+                  <option value="uz">UZ</option>
+                  <option value="ru">RU</option>
+                </select>
               </div>
           </div>
         </div>

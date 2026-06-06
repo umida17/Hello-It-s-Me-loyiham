@@ -61,3 +61,34 @@
 .about:hover{
     color: #00EEFF;
 }
+
+.language-select{
+ background-color: #1F242D;
+  color: white;
+  border: 1px solid #00EEFF;  
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+ @media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;  
+  }
+
+  .about {
+    font-size: 14px;  
+  }
+}
