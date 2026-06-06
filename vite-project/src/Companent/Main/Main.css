@@ -131,7 +131,7 @@
 
   .card {
     width: 100%;
-    max-width: 340px; /* Telefon ekranida chiroyli quti bo'lib turadi */
+    max-width: 340px;  
     margin: 0 auto;
   }
 
